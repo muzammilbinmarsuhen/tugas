@@ -1,0 +1,25 @@
+    <title>
+    {%block title%}
+    <!-- ini title  -->
+    {%endblock title%}
+    </title>
+
+
+    {%block menu%}
+    {%endblock menu%}
+    <center>
+
+        <a href="/">Home</a>
+        <a href="{% url 'hiburan' %}">hiburan</a>
+        <a href="{% url 'blog' %}">blog</a>
+    </center>
+</head>
+<body>
+
+
+    {%block content%}
+    <!-- ini adalah isi dari menu -->
+    {%endblock content%}
+
+</body>
+</html>
